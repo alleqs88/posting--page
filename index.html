@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posting--Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <form id="postForm">
+        <label for="postTitle">Título:</label>
+        <input type="text" id="postTitle" required>
+        <label for="postContent">Conteúdo:</label>
+        <textarea id="postContent" required></textarea>
+        <button type="button" id="submitPost">Postar</button>
+    </form>
+
+    <div id="postContentPrint" class="post-content-print">
+        <h2 id="renderizador-titulo"></h2>
+        <p id="renderizador-conteudo"></p>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
+
